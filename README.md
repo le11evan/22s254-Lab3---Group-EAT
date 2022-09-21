@@ -2,3 +2,4 @@
 
 Evan Le  
 Aren Laure Lizardo
+Thomas Phan

@@ -1,5 +1,5 @@
 # 22s254-Lab3---Group-EAT
 
 Evan Le  
-Aren Laure Lizardo
+Aren Laure Lizardo  
 Thomas Phan

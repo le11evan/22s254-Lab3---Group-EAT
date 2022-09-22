@@ -1,5 +1,7 @@
 #include "function.cpp"
 
+using namespace std;
+
 int main() {
     ifstream inFile;
     inFile.open("README.md");

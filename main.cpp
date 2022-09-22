@@ -1,3 +1,5 @@
+#include "function.cpp"
+
 int main() {
     ifstream inFile;
     inFile.open("README.md");
@@ -12,6 +14,8 @@ int main() {
         cout << names[i];
         cout << endl;
     }
+    cout << add(2, 3) << endl;
+    cout << sub(3, 2) << endl;
     cout << "Program was ran.";
     return 0;
 }

@@ -1,23 +1,17 @@
-int main (){
-  
-#declare fstream variable 
-std::ifstream myfile;
-  
-#open file
-myfile.open("README.md");
-  
-#declare stream variable
-std::string myline;
-  
-if ( myfile.is_open() ) {
-while ( myfile ) { 
-std::getline (myfile, myline);
-std::cout << myline << '\n';
-}
-}
-else {
-std::cout << "Couldn't open file\n";
-}
-  
-return 0;      
+int main() {
+    ifstream inFile;
+    inFile.open("README.md");
+    if (!inFile) {
+        cout << "No file found.";
+    }
+    string names[3];
+    while (inFile) {
+        getline(inFile, names, EOF);
+    }
+    for (int i = 0; i < 2; i++) {
+        cout << names[i];
+        cout << endl;
+    }
+    cout << "Program was ran.";
+    return 0;
 }
